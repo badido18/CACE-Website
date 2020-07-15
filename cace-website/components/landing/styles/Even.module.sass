@@ -25,9 +25,18 @@
     transition : 0.3s ease-out
     box-shadow : 0px 3px 6px $shadow 
     &:hover
-        transform : scale(1.03)
+        transform : scale(1.1) rotate(-10deg)
         box-shadow : 0px 10px 20px $shadow2 
         backdrop-filter : grayscale(30%)
+    
+.pic2
+    transition : 0.3s ease-out
+    box-shadow : 0px 3px 6px $shadow 
+    &:hover
+        transform : scale(1.1) rotate(10deg)
+        box-shadow : 0px 10px 20px $shadow2 
+        backdrop-filter : grayscale(30%)
+
 .eventxt
     width : 540px
     height : 100%
@@ -39,6 +48,8 @@
         margin : auto 
         margin-top : 0px
         height : 71px
+        &:hover
+            animation : colorful 2s ease-out infinite
     p
         height : 150px
         width : 100% 

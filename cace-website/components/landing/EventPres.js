@@ -22,7 +22,7 @@ const EventPres = () => {
                 </div>
             </div>
             <div className={style.yennayer}>
-                <div className={style.pic}>
+                <div className={style.pic2}>
                     <img src="assets/images/yennayer.png" alt=""/>
                 </div>
                 <div className = {style.eventxt}>

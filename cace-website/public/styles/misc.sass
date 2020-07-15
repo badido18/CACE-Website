@@ -120,3 +120,44 @@ button
         transform : translatey(-15px) scale(1.05) 
         cursor : grab
         box-shadow : 0px 10px 20px $shadow2 
+
+.nav
+    display : flex
+    width : 100%
+    position : fixed
+    top : 0
+    height : 70px
+    background : $white
+    box-shadow : 0px 3px 6px $shadow
+    paddin-left : 200px
+    padding-right : 200px
+    z-index : 5000 
+    transition : 0.3s ease-out  
+    .navctn
+        display : flex
+        flex-direction : row
+        width : 70%
+        margin : auto
+        *
+            margin : auto
+        img
+            height : 50px
+        h1
+            font-family : openB
+            font-size : 18px
+            height : 100%
+            padding : 21px
+            color : $black
+            cursor : pointer
+            border-bottom : 2px solid $white
+            transition : 0.3s ease-out
+            &:hover
+                color : $redish
+                border-bottom : 2px solid $redish
+            &:active
+                color : $white
+                background : $redish
+        .redish
+            color : $redish   
+.collapsed
+    top : -70px
