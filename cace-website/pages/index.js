@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Top from '../components/landing/Top'
 import Pres from '../components/landing/Presentation'
 import Even from '../components/landing/EventPres'
+import Exp from '../components/landing/Experience'
 export class index extends React.Component {
 
 
@@ -15,6 +16,7 @@ export class index extends React.Component {
         <Top/>
         <Pres/>
         <Even/>
+        <Exp/>
     </div>
     )
   }
