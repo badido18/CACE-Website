@@ -4,6 +4,7 @@ import Pres from '../components/landing/Presentation'
 import Even from '../components/landing/EventPres'
 import Exp from '../components/landing/Experience'
 import Conf from '../components/landing/Confiance'
+import Footer from '../components/landing/Footer'
 export class index extends React.Component {
 
 
@@ -19,6 +20,7 @@ export class index extends React.Component {
         <Even/>
         <Exp/>
         <Conf/>
+        <Footer/>
     </div>
     )
   }

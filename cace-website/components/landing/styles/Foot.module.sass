@@ -1,0 +1,124 @@
+@import "public/styles/Colors.sass"
+@import "public/styles/animations.sass"
+.Foot
+    height : 508px
+    width : 100%
+    .message
+        width : 100%
+        background : #e9e9e9
+        height : 70px
+        display : flex
+        p
+            font-size : 14px
+            color : $black
+            font-family : openI 
+            margin : auto
+            text-align : center 
+    .Resum
+        margin-top : 0
+        height : 438px
+        width : 100%
+        background-image : url('/assets/images/footer.png')
+        background-repeat : no-repeat
+        background-color : black
+        background-position : center
+        background-size : cover
+        display : flex  
+        justify-content : space-evenly
+        color : $white
+        *
+            margin : auto
+        .Logo
+            img
+                width : 320px
+        .Infos
+            min-width : 400px
+            max-width : 500px
+            display : flex
+            flex-direction : column
+            *
+                margin-left : 0 
+            .social
+                width : 260px
+                display : flex
+                justify-content : space-between 
+                h3
+                    text-align : left 
+                    text-decoration : underline
+                    font-family : openB
+                    font-size : 20px 
+            h1
+                font-family : openB
+                font-size : 20px 
+                text-align : left
+                margin-top :  38px
+            p
+                margin-top :  12px
+                font-family : openR
+                font-size : 20px 
+                text-align : left 
+            span
+                margin-top :  38px
+                font-family : openR
+                font-size : 20px 
+                text-align : left
+                text-decoration : underline
+        
+        .Contact
+            height : 100%
+            width : 360px
+            display : flex 
+            flex-direction : column 
+            backdrop-filter : blur(10px) 
+            *
+                font-family : openR
+                margin : auto
+            h1
+                font-family : openB
+                font-size : 20px 
+                text-align : left
+                margin-top :  33px
+                margin-bottom : 43px
+            input
+                color : white
+                padding-left : 10px
+                width : 80%
+                margin : auto
+                border : solid 1px $black
+                border-radius : 5px
+                height : 50px
+                font-size : 15px
+                background : #00000057
+                outline : none
+                transition : 0.3s ease-out 
+                &:focus
+                    border : solid 1px $redish
+            textarea
+                color : white
+                padding-left : 10px
+                padding-top : 10px
+                min-width : 80%
+                max-width : 80% 
+                border : solid 1px $black
+                border-radius : 5px
+                min-height : 100px
+                max-height : 100px
+                font-size : 15px
+                background : #00000057
+                outline : none
+                transition : 0.3s ease-out 
+                &:focus
+                    border : solid 1px $redish
+            .ctbtn
+                width : 90%
+                margin : auto
+                border : none
+                border-radius : 5px
+                height : 50px
+                font-size : 15px
+                background : #00000057
+                &:hover
+                    background : $redish  
+                &:active
+                    background : $black 
+      

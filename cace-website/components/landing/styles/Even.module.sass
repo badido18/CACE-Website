@@ -21,7 +21,13 @@
         margin : auto
         margin-top : 150px
 
-
+.pic
+    transition : 0.3s ease-out
+    box-shadow : 0px 3px 6px $shadow 
+    &:hover
+        transform : scale(1.03)
+        box-shadow : 0px 10px 20px $shadow2 
+        backdrop-filter : grayscale(30%)
 .eventxt
     width : 540px
     height : 100%
