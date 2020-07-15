@@ -3,6 +3,7 @@ import Top from '../components/landing/Top'
 import Pres from '../components/landing/Presentation'
 import Even from '../components/landing/EventPres'
 import Exp from '../components/landing/Experience'
+import Conf from '../components/landing/Confiance'
 export class index extends React.Component {
 
 
@@ -17,6 +18,7 @@ export class index extends React.Component {
         <Pres/>
         <Even/>
         <Exp/>
+        <Conf/>
     </div>
     )
   }
