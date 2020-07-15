@@ -1,0 +1,43 @@
+@import "public/styles/Colors.sass"
+@import "public/styles/animations.sass"
+.Top
+    width : 100%
+    height : 100vh
+    background-image : url('/assets/images/landing.png')
+    background-repeat : no-repeat
+    background-color : black
+    background-position : center
+    background-size : cover
+    display : flex 
+    flex-direction : column 
+    *
+        margin : auto
+.logo
+    margin-top : 57px
+    img
+        height : 182px
+        width : 426px
+.slogan
+    h1
+        font-family : openB
+        font-size : 50px  
+        color : white 
+        animation : fadetop ease-in 2s infinite
+        text-shadow : 0px 3px 6px $shadow 
+    .redslog
+        color : $redish
+.voirplusctn
+    display : flex
+    flex-direction : column
+    justify-content : space-between 
+    height : 62px
+    cursor : pointer 
+    h3
+        margin-top : 0
+        color : white
+        font-family : openB
+        font-size : 15.6px 
+    .triangle
+        height : 19px
+    &:hover
+        animation : float 2s ease-in-out infinite
