@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Top from '../components/landing/Top'
 import Pres from '../components/landing/Presentation'
-
+import Even from '../components/landing/EventPres'
 export class index extends React.Component {
 
 
@@ -14,6 +14,7 @@ export class index extends React.Component {
         </Head>
         <Top/>
         <Pres/>
+        <Even/>
     </div>
     )
   }
