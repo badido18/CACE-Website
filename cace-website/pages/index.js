@@ -12,7 +12,7 @@ export class index extends React.Component {
     var lastScrollTop = 0;
     document.addEventListener("scroll", () => { 
       var state = window.pageYOffset || document.documentElement.scrollTop ;
-      if(window.scrollY >= 1125) {
+      if(window.scrollY >= window.innerHeight + 100) {
         if (state > lastScrollTop){
             document.getElementById("NavBar").classList.add("collapsed")
         } else {
