@@ -1,4 +1,4 @@
-import React, {useState } from 'react'
+import {useState } from 'react'
 import style from "./styles/Top.module.sass"
 const Top = () => {
     const [slog, setslog] = useState("l'Artiste")

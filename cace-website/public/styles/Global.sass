@@ -1,6 +1,8 @@
 @import "Colors.sass"
 @import "Fonts.sass"
 @import "animations.sass"
+@import "misc.sass"
+
 body
     user-select : none
     font-family : openR 
@@ -8,3 +10,12 @@ body
     padding : 0
     background : $white
     transition : 0.3s ease-out 
+    &::-webkit-scrollbar 
+        width : 10px
+    &::-webkit-scrollbar-track 
+        background : #f1f1f1
+    &::-webkit-scrollbar-thumb 
+        background : $black
+        border-radius : 2px
+    &::-webkit-scrollbar-thumb:hover 
+        background : $redish

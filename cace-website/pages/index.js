@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Top from '../components/landing/Top'
-
+import Pres from '../components/landing/Presentation'
 
 export class index extends React.Component {
 
@@ -13,6 +13,7 @@ export class index extends React.Component {
           <link rel="icon" href="/assets/images/CACE white.png" />
         </Head>
         <Top/>
+        <Pres/>
     </div>
     )
   }
