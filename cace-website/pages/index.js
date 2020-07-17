@@ -12,14 +12,17 @@ export class index extends React.Component {
     var lastScrollTop = 0;
     document.addEventListener("scroll", () => { 
       var state = window.pageYOffset || document.documentElement.scrollTop ;
-      if(window.scrollY >= window.innerHeight + 100) {
+      if(window.scrollY >= window.innerHeight ) {
         if (state > lastScrollTop){
             document.getElementById("NavBar").classList.add("collapsed")
+            document.getElementById("NavBarM").classList.add("collapsed")
         } else {
             document.getElementById("NavBar").classList.remove("collapsed")
+            document.getElementById("NavBarM").classList.remove("collapsed")
         }
       }else{
         document.getElementById("NavBar").classList.add("collapsed")
+        document.getElementById("NavBarM").classList.add("collapsed")
       }
       lastScrollTop = state <= 0 ? 0 : state; 
     }, false);

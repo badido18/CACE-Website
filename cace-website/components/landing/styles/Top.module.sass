@@ -1,5 +1,6 @@
 @import "public/styles/Colors.sass"
 @import "public/styles/animations.sass"
+@import "public/styles/Vars.sass"
 .Top
     width : 100%
     min-height : 100vh
@@ -17,6 +18,12 @@
     img
         height : 182px
         width : 426px
+    @media  #{$SmallScreens}
+        margin-top : 20px 
+        img
+            margin : auto
+            height : auto
+            width : 100%
 .slogan
     transform : translatey(-30px)
     h1
@@ -29,6 +36,9 @@
     .redslog
         color : $redish
         text-shadow : 0px 0px 10px $shadow2
+    @media  #{$SmallScreens}
+        h1
+            font-size : 30px  
 .voirplusctn
     display : flex
     flex-direction : column

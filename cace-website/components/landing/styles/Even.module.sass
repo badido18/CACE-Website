@@ -1,5 +1,6 @@
 @import "public/styles/Colors.sass"
 @import "public/styles/animations.sass"
+@import "public/styles/Vars.sass"
 .Even
     width : 100%
     height : 1993px
@@ -20,8 +21,19 @@
         width : 100%
         margin : auto
         margin-top : 150px
+    @media  #{$SmallScreens}
+        width : 100%
+        height : auto
+        background-position : bottom
+        .Title
+            margin-top : 50px
+            font-size : 45px
+            padding-top : 50px
+        .evenbtn
+            margin-top : 180px 
 
 .pic
+    height : auto 
     transition : 0.3s ease-out
     box-shadow : 0px 3px 6px $shadow 
     &:hover
@@ -39,7 +51,7 @@
 
 .eventxt
     width : 540px
-    height : 100%
+    height : auto
     .tit
         color : $black
         font-family : openB
@@ -65,6 +77,15 @@
             transition : 0.3s ease-out
             &:hover
                 color :  $redish
+    @media  #{$SmallScreens}
+        width : 80%
+        margin : auto
+        .tit
+            font-size : 40px 
+            margin-top : 20px
+        p
+            height : auto
+            font-size : 18px
 
 @mixin evenctn()
     margin : auto
@@ -73,13 +94,21 @@
     justify-content :  space-between 
     height : 247px
     width : 1095px
+    @media  #{$SmallScreens}
+        width : 100%
+        height : 450px
+        justify-content :  space-evenly 
+        flex-direction : column 
+        *
+            img
+                width : 100%
 
 .singit
     @include evenctn()
-    margin-top : 221px
+    margin-top : 120px
 .yennayer
     @include evenctn()
-    margin-top : 146px
+    margin-top : 170px
 .ftour
     @include evenctn()
     margin-top : 146px

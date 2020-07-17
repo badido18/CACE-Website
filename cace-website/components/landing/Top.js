@@ -12,7 +12,7 @@ const Top = () => {
         }
     }
     const scrolldown = () => {
-        scrollTo({top: 900,
+        scrollTo({top: window.innerHeight,
             behavior: 'smooth'})
     }
     return (

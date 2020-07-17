@@ -1,5 +1,6 @@
 @import "public/styles/Colors.sass"
 @import "public/styles/animations.sass"
+@import "public/styles/Vars.sass"
 .Foot
     height : 508px
     width : 100%
@@ -14,6 +15,8 @@
             font-family : openI 
             margin : auto
             text-align : center 
+            @media  #{$SmallScreens}
+                font-size : 12px 
     .Resum
         margin-top : 0
         height : 438px
@@ -62,6 +65,8 @@
                 font-size : 20px 
                 text-align : left 
             span
+                width : 100%
+                margin : auto
                 margin-top :  38px
                 font-family : openR
                 font-size : 20px 
@@ -114,7 +119,7 @@
                 &:focus
                     border : solid 1px $redish
             .ctbtn
-                width : 90%
+                width : 85%
                 margin : auto
                 border : none
                 border-radius : 5px
@@ -125,4 +130,23 @@
                     background : $redish  
                 &:active
                     background : $black 
+        @media  #{$SmallScreens}
+            height : auto
+            padding-top : 20px 
+            padding-bottom : 20px
+            width : 100%
+            flex-direction : column 
+            .Contact
+                width : 100%
+                height : 450px
+            .Infos
+                min-width : 80%
+                max-width : 90%
+                p , h1 , span
+                    text-align : center
+                
+                .social
+                    *
+                        margin : auto
+                    width : 100%
       
