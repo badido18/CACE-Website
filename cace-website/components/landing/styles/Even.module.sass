@@ -25,9 +25,12 @@
         width : 100%
         height : auto
         background-position : bottom
+        background-image : url('/assets/images/evenementmobile.png')
+        background-position : center top
         .Title
             margin-top : 50px
             font-size : 45px
+            padding : 5%
             padding-top : 50px
         .evenbtn
             margin-top : 180px 
@@ -88,20 +91,27 @@
             font-size : 18px
 
 @mixin evenctn()
+    margin : 2%
     margin : auto
     display : flex
     flex-direction : row
     justify-content :  space-between 
     height : 247px
-    width : 1095px
+    max-width : 1095px
     @media  #{$SmallScreens}
         width : 100%
         height : 450px
         justify-content :  space-evenly 
-        flex-direction : column 
+        flex-direction : column
         *
             img
                 width : 100%
+        .pic
+            margin : auto
+            width : 90%
+        .pic2
+            margin : auto
+            width : 90%
 
 .singit
     @include evenctn()

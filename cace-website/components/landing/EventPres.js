@@ -3,7 +3,7 @@ import style from './styles/Even.module.sass'
 import Button from '../../misc/Button'
 const EventPres = () => {
     return (
-        <div className={style.Even}>
+        <div className={style.Even} id="Events">
             <h1 className={style.Title}>
                 Nos Évènements
             </h1>

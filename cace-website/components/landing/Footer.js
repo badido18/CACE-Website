@@ -29,8 +29,7 @@ Oued Smar , 16039 , Alger </p>
             <div className={style.message}>
                 <p>
                 Club Artistique et Culturel de l'Esi © 2020  Fait avec ❤️ 
-                {//par Mohamed Abdelmadjid Boudis 
-                }
+                <p style={{display : "none"}} id="EasterEgg"> par Mohamed Abdelmadjid Boudis  @badido18 on Github</p>
                 </p>
             </div>
         </div>

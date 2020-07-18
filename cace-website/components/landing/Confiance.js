@@ -5,7 +5,7 @@ const Confiance = () => {
     return (
         <div className={style.Conf}>
             <h1 className={style.Title}>
-                Ils nous ont fait confiance !
+                Ils nous ont fait confiance
             </h1>
             <div className={style.Confctn}> 
                 <div className={style.ctn}>

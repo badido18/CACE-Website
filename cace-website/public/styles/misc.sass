@@ -26,7 +26,12 @@
     .redish
         color : $redish
     @media  #{$SmallScreens}
-        display : none
+        width : 100%
+        justify-content : space-evenly
+        padding-top : 20px 
+        border-bottom : solid 2px $shadow
+        h1
+            font-size : 11px 
 
 
 button 
@@ -43,6 +48,11 @@ button
     transform : scale(0.95)
     outline : none 
     margin : auto
+    @media  #{$SmallScreens}
+        width : 80%
+        padding : 7%
+        height : auto
+        font-size : 18px 
 .pinkbtn
     background : $orange
     &:hover
