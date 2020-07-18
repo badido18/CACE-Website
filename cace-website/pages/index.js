@@ -16,6 +16,7 @@ export class index extends React.Component {
         if (state > lastScrollTop){
             document.getElementById("NavBar").classList.add("collapsed")
             document.getElementById("NavBarM").classList.add("collapsed")
+            document.getElementById("Menu").classList.remove("menuopen")
         } else {
             document.getElementById("NavBar").classList.remove("collapsed")
             document.getElementById("NavBarM").classList.remove("collapsed")
