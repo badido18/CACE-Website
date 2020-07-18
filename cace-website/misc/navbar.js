@@ -6,11 +6,13 @@ const navbar = () => {
         if (document.getElementById("Menu").style.display === "flex")
         {
             document.getElementById("Menu").style.display = "none"
+            document.getElementById("NavBarM").style.top = "00px"
             setimgpath("/assets/svg/open-menu.svg")
         }
         else
         {
             document.getElementById("Menu").style.display = "flex"
+            document.getElementById("NavBarM").style.top = "70px"
             setimgpath("/assets/svg/close.svg")
         }
     }
