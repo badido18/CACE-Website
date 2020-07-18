@@ -20,7 +20,7 @@ const experience = () => {
                         meilleures expérience universitaire et
                         artistique.`}
                         pic = "/assets/images/Zack.png"
-                        name = "Zakaria Goutel"
+                        name = "Zakaria Gouttel"
                         post = "Vice-président"
                     />
                     <Card  
@@ -32,7 +32,7 @@ const experience = () => {
                         je me suis engagée à me donner corps
                         et âme à sa bonne gestion.`}
                         pic = "/assets/images/Dyna.png"
-                        name = "Dyna Ouchebaral"
+                        name = "Dyna Ouchebara"
                         post = "Présidente 2019/2020"
                     />
                     <Card  
