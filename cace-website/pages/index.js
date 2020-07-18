@@ -35,7 +35,9 @@ export class index extends React.Component {
           <title>Club Artistique et Culturel de l'ESI</title>
           <link rel="icon" href="/assets/images/CACE white.png" />
         </Head>
-        <img src="/thumbnails/landing.png" style={{position : "absolute" , top : 0 , zIndex : "-5000"}}  alt=""/>
+        <div className="thumbnail">
+          <img src="/thumbnails/landing.png" alt=""/>
+        </div>
         <Nav/>
         <Top/>
         <Pres/>
