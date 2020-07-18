@@ -3,16 +3,14 @@ import React , {useState} from 'react'
 const navbar = () => {
     const [imgpath, setimgpath] = useState("/assets/svg/open-menu.svg")
     const ShownavM = (e) => {
-        if (document.getElementById("Menu").style.display === "flex")
+        if (document.getElementById("Menu").classList.contains("menuopen"))
         {
-            document.getElementById("Menu").style.display = "none"
-            document.getElementById("NavBarM").style.top = "00px"
+            document.getElementById("Menu").classList.remove("menuopen")
             setimgpath("/assets/svg/open-menu.svg")
         }
         else
         {
-            document.getElementById("Menu").style.display = "flex"
-            document.getElementById("NavBarM").style.top = "70px"
+            document.getElementById("Menu").classList.add("menuopen")
             setimgpath("/assets/svg/close.svg")
         }
     }
