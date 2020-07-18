@@ -20,7 +20,7 @@ const navbar = () => {
                 <div className="navctn">
                     <img src="/assets/images/CACE black.png" alt=""/>
                     <h1>Actualités</h1>
-                    <h1>Évènement</h1>
+                    <h1>Événement</h1>
                     <h1>Show Room</h1>
                     <h1 className="redish">À Propos</h1>
                 </div>
@@ -32,7 +32,7 @@ const navbar = () => {
                 </div>
                 <div className="Menu" id="Menu">
                     <h1>Actualités</h1>
-                    <h1>Évènement</h1>
+                    <h1>Événement</h1>
                     <h1>Show Room</h1>
                     <h1 className="redish">À Propos</h1>
                 </div>

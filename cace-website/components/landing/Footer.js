@@ -13,10 +13,10 @@ const Footer = () => {
                         <h3>Facebook</h3>
                         <h3>Instagram</h3>
                     </div>
-                    <h1> Club Artistique et Culturel de l'esi</h1>
+                    <h1> Club Artistique et Culturel de l'ESI</h1>
                     <p>École nationale supérieure d'informatique Alger
 Oued Smar , 16039 , Alger </p>
-                    <span>Email : Cace@esi.dz</span>
+                    <span>email : cace@esi.dz</span>
                 </div>
                 <div className={style.Contact}>
                     <h1>Contactez-Nous</h1>
